@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66475AF823880B02009F126D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66475AF723880B02009F126D /* Main.storyboard */; };
+		66475B0423880BA5009F126D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66475B0323880BA5009F126D /* LaunchScreen.storyboard */; };
+		66475B0823880C45009F126D /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66475B0723880C45009F126D /* QuestionBank.swift */; };
+		66475B0A23880C5C009F126D /* Questions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66475B0923880C5C009F126D /* Questions.swift */; };
+		66475B0C23880D79009F126D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66475B0B23880D79009F126D /* AppDelegate.swift */; };
+		66475B0E23880D8C009F126D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66475B0D23880D8C009F126D /* SceneDelegate.swift */; };
+		66475B1023880D94009F126D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66475B0F23880D94009F126D /* ViewController.swift */; };
+		66475B1223880E1E009F126D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66475B1123880E1E009F126D /* Assets.xcassets */; };
+		66475B142388115D009F126D /* Chicken.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66475B132388115D009F126D /* Chicken.mp3 */; };
+		66475B1623881B6C009F126D /* ChickenDance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66475B1523881B6C009F126D /* ChickenDance.gif */; };
+		66475B18238956AA009F126D /* GifPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66475B17238956AA009F126D /* GifPlayer.swift */; };
+		66A705862389B61B00980EAC /* Fart sound effect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66A705852389B61B00980EAC /* Fart sound effect.mp3 */; };
+		66A70588238A933100980EAC /* italian spiderman.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66A70587238A933100980EAC /* italian spiderman.gif */; };
+		66A7058A238A934100980EAC /* I'm on a boat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 66A70589238A934100980EAC /* I'm on a boat.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		66475AE023880AB8009F126D /* The Raymond Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Raymond Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66475AF123880AB9009F126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66475AF723880B02009F126D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		66475B0323880BA5009F126D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66475B0723880C45009F126D /* QuestionBank.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		66475B0923880C5C009F126D /* Questions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Questions.swift; sourceTree = "<group>"; };
+		66475B0B23880D79009F126D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66475B0D23880D8C009F126D /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66475B0F23880D94009F126D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66475B1123880E1E009F126D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66475B132388115D009F126D /* Chicken.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Chicken.mp3; sourceTree = "<group>"; };
+		66475B1523881B6C009F126D /* ChickenDance.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ChickenDance.gif; sourceTree = "<group>"; };
+		66475B17238956AA009F126D /* GifPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifPlayer.swift; sourceTree = "<group>"; };
+		66A705852389B61B00980EAC /* Fart sound effect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Fart sound effect.mp3"; sourceTree = "<group>"; };
+		66A70587238A933100980EAC /* italian spiderman.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "italian spiderman.gif"; sourceTree = "<group>"; };
+		66A70589238A934100980EAC /* I'm on a boat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I'm on a boat.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66475ADD23880AB8009F126D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66475AD723880AB8009F126D = {
+			isa = PBXGroup;
+			children = (
+				66A70589238A934100980EAC /* I'm on a boat.mp3 */,
+				66A70587238A933100980EAC /* italian spiderman.gif */,
+				66A705852389B61B00980EAC /* Fart sound effect.mp3 */,
+				66475B1523881B6C009F126D /* ChickenDance.gif */,
+				66475B132388115D009F126D /* Chicken.mp3 */,
+				66475AE223880AB8009F126D /* The Raymond Quiz */,
+				66475AE123880AB8009F126D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66475AE123880AB8009F126D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66475AE023880AB8009F126D /* The Raymond Quiz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66475AE223880AB8009F126D /* The Raymond Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				66475B0B23880D79009F126D /* AppDelegate.swift */,
+				66475B0D23880D8C009F126D /* SceneDelegate.swift */,
+				66475B0F23880D94009F126D /* ViewController.swift */,
+				66475AF723880B02009F126D /* Main.storyboard */,
+				66475B0723880C45009F126D /* QuestionBank.swift */,
+				66475B17238956AA009F126D /* GifPlayer.swift */,
+				66475B0923880C5C009F126D /* Questions.swift */,
+				66475B1123880E1E009F126D /* Assets.xcassets */,
+				66475B0323880BA5009F126D /* LaunchScreen.storyboard */,
+				66475AF123880AB9009F126D /* Info.plist */,
+			);
+			path = "The Raymond Quiz";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66475ADF23880AB8009F126D /* The Raymond Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66475AF423880AB9009F126D /* Build configuration list for PBXNativeTarget "The Raymond Quiz" */;
+			buildPhases = (
+				66475ADC23880AB8009F126D /* Sources */,
+				66475ADD23880AB8009F126D /* Frameworks */,
+				66475ADE23880AB8009F126D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Raymond Quiz";
+			productName = "The Raymond Quiz";
+			productReference = 66475AE023880AB8009F126D /* The Raymond Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66475AD823880AB8009F126D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Raymond Lopez";
+				TargetAttributes = {
+					66475ADF23880AB8009F126D = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 66475ADB23880AB8009F126D /* Build configuration list for PBXProject "The Raymond Quiz" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66475AD723880AB8009F126D;
+			productRefGroup = 66475AE123880AB8009F126D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66475ADF23880AB8009F126D /* The Raymond Quiz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66475ADE23880AB8009F126D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66A7058A238A934100980EAC /* I'm on a boat.mp3 in Resources */,
+				66A70588238A933100980EAC /* italian spiderman.gif in Resources */,
+				66A705862389B61B00980EAC /* Fart sound effect.mp3 in Resources */,
+				66475B1623881B6C009F126D /* ChickenDance.gif in Resources */,
+				66475B142388115D009F126D /* Chicken.mp3 in Resources */,
+				66475AF823880B02009F126D /* Main.storyboard in Resources */,
+				66475B1223880E1E009F126D /* Assets.xcassets in Resources */,
+				66475B0423880BA5009F126D /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66475ADC23880AB8009F126D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66475B1023880D94009F126D /* ViewController.swift in Sources */,
+				66475B0C23880D79009F126D /* AppDelegate.swift in Sources */,
+				66475B0823880C45009F126D /* QuestionBank.swift in Sources */,
+				66475B0A23880C5C009F126D /* Questions.swift in Sources */,
+				66475B0E23880D8C009F126D /* SceneDelegate.swift in Sources */,
+				66475B18238956AA009F126D /* GifPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		66475AF223880AB9009F126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66475AF323880AB9009F126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66475AF523880AB9009F126D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F325F8B57C;
+				INFOPLIST_FILE = "The Raymond Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sizurp.The-Raymond-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		66475AF623880AB9009F126D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F325F8B57C;
+				INFOPLIST_FILE = "The Raymond Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Sizurp.The-Raymond-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66475ADB23880AB8009F126D /* Build configuration list for PBXProject "The Raymond Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66475AF223880AB9009F126D /* Debug */,
+				66475AF323880AB9009F126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66475AF423880AB9009F126D /* Build configuration list for PBXNativeTarget "The Raymond Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66475AF523880AB9009F126D /* Debug */,
+				66475AF623880AB9009F126D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66475AD823880AB8009F126D /* Project object */;
+}
